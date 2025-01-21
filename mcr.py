@@ -33,6 +33,10 @@ def is_win(game):
         win = True
     return win
 
+def print_board(game):
+    for row in game:
+        print(" ".join(row))
+
 def main():
     game = [[' ' for _ in range(3)] for _ in range(3)]  # Tic-tac-toe board
     player1 = 'X'
