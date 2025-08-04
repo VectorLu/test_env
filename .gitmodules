@@ -1,0 +1,3 @@
+[submodule "arxiv-pdf2img-tool"]
+	path = arxiv-pdf2img-tool
+	url = https://github.com/VectorLu/arxiv-pdf2img-tool.git
